@@ -15,7 +15,7 @@ public:
 
     ~Square() {}
 
-    double getPeri()
+    double getPerim()
     {
         return 4 * side;
     }
@@ -49,7 +49,7 @@ int main()
 {
     Cube c(5);
 
-    cout << "Perimeter of base: " << c.getPeri() << endl;
+    cout << "Perimeter of base: " << c.getPerim() << endl;
     cout << "Surface area: " << c.getArea() << endl;
     cout << "Volume: " << c.getVolume() << endl;
 
